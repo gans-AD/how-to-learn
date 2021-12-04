@@ -169,6 +169,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
 }
 
 .table__cell {
@@ -224,6 +226,7 @@
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .feynman__subtitle {
@@ -334,13 +337,9 @@
   margin-bottom: 20px;
 }
 
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__column-links {
-  margin-bottom: 16px;
+  padding: 0;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-link {
@@ -350,6 +349,11 @@
   align-items: center;
   color: white;
   text-decoration: none;
+}
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
