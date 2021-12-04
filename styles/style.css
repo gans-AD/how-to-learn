@@ -17,7 +17,6 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
-  z-index: -1;
 }
 
 .logo {
@@ -57,9 +56,11 @@
   font-size: 18px;
   color: #000000;
   z-index: 2;
+  margin: 0;
 }
 
 .header__link {
+  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -171,6 +172,7 @@
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+  margin-bottom: 100px;
 }
 
 .table__cell {
@@ -338,8 +340,9 @@
 }
 
 .footer__column-links {
-  padding: 0;
   margin: 0 0 16px 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .footer__column-link {
