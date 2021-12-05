@@ -35,7 +35,6 @@
 
 .header__title {
   width: 730px;
-  position: absolute;
   left: 64px;
   align-self: center;
   line-height: 96px;
@@ -43,7 +42,7 @@
   font-weight: bold;
   color: #000000;
   z-index: 2;
-  margin: 0;
+  margin: 0 0 0 64px;
 }
 
 .header__subtitle {
@@ -292,19 +291,17 @@
   display: flex;
   min-height: 350px;
   background-color: #1f1f1f;
-  position: relative;
-  flex-direction: column;
-  color: white;  /* цвет содержимого подвала*/
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  align-items: stretch;
 }
 
 .footer__columns {
   display: flex;
   width: 90%;
-  position: absolute;
-  top: 60px;
-  bottom: 40px;
-  align-self: center;
   justify-content: space-between;
+  margin: 60px 0 40px;
 }
 
 .footer__column_content_copyright {
