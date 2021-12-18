@@ -7,3 +7,8 @@
   text-decoration: none;
   vertical-align: top;
 }
+
+.khan__buy-link:hover {
+  transition: .3s linear;
+  opacity: .5;
+}
